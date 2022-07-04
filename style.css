@@ -33,5 +33,6 @@ section{
 }
 .dream-big{
     background-image: url(developer-portfolio-master/dream-bg.png);
-    background-image: url(developer-portfolio-master/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
 }
