@@ -6,8 +6,9 @@ body{
 .color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -34,5 +35,22 @@ section{
 .dream-big{
     background-image: url(developer-portfolio-master/dream-bg.png);
    background-repeat: no-repeat;
-   background-position: right;
+   background-position: right;}
+   .experience-area{
+    background-image: url(developer-portfolio-master/exp-bg.png);
+    background-repeat: no-repeat;
+   }
+.experience-item{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 5%;
+    box-shadow: 10px 15px 40px grey;
+    border-left: 7px solid blue;
+}
+#full-stack-developer{
+    border-left: 7px solid orangered;
+}
+footer{
+    text-align: center;
 }
